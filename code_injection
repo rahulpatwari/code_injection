@@ -49,4 +49,4 @@ for example: /index.php?arg=1; system('id')
 
 References : 
 https://owasp.org/www-community/attacks/Code_Injection
-
+https://cobalt.io/blog/a-pentesters-guide-to-code-injection

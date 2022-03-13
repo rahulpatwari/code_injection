@@ -45,7 +45,12 @@ For example: /index.php?arg=1; phpinfo()
 While exploiting bugs like these, an attacker may want to execute system commands. In this case, a code injection bug can also be used for command injection, 
 for example: /index.php?arg=1; system('id')
 
+Code Injection Report
+Reported by fbogner
 
+Reported to Slack
+
+https://hackerone.com/reports/954398
 
 References : 
 https://owasp.org/www-community/attacks/Code_Injection
